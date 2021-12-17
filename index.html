@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>ProjetB</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="list_navbar">
+                <a href="http://127.0.0.1:5500/index.html">
+                    <li class="list_home">Accueil</li>
+                </a>
+                <a href="http://127.0.0.1:5500/gallerie.html">
+                    <li class="list_gallery">Gallerie</li>
+                </a>
+                <a href="http://127.0.0.1:5500/unity.html">
+                    <li class="list_about">Projet B</li>
+                </a>
+            </ul>
+
+            <div class="title_and_logo">
+                <h1 class="title_project">Bee Responsible</h1>
+            </div>
+        </nav>
+    </header>
+
+    <section class="homepage">
+        <div class="part_of_top">
+            <div class="left_part_top">
+
+                <h1 class="title_left_part_top">Pourquoi les abeilles sont si importantes pour nous ?</h1>
+                <p class="left_part_top_text">
+                    La pollinisation par les insectes est un enjeu important de l'écologie.
+                    En effet, les insectes sauvages et surtout les abeilles permettent d'effectuer naturellement des
+                    fécondations croisées :
+                    l'ovule d'une plante reçoit le pollen d'une autre plante de la même espèce, cela permet de conserver
+                    une grande diversité génétique.
+                </p>
+
+                <p class="left_part_top_text_two">
+                    D'autant plus que ses plantes produisent l'oxygène que nous respiront.
+                </p>
+            </div>
+
+            <div class="right_part_top">
+                <!-- <img src="img/bee_right_part.jpg" class="right_part_top_picture"> -->
+                <div class="beee">
+                    <div class="wings"></div>
+                    <div class="body"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="part_of_bottom">
+
+            <div class="left_part_bottom">
+                <!-- <img src="img/bee_left_part.jpg" class="left_part_bottom_picture"> -->
+                <div class="bee">
+                    <div class="bee__wing bee__wing--left"></div>
+                    <div class="bee__wing bee__wing--right"></div>
+                    <div class="bee__oval bee__oval--top"></div>
+                    <div class="bee__rect"></div>
+                    <div class="bee__rect"> </div>
+                    <div class="bee__oval bee__oval--bottom"></div>
+                  </div>
+            </div>
+
+            <div class="right_part_bottom">
+
+                <h1 class="title_right_part_bottom_two">Notre projet sur les abeilles et le lien avec le numérique :
+                </h1>
+                <p class="right_part_bottom_text">
+                    Notre projet est à but de sensibilisation, de prévention et d'éducation.
+                    Nous avons eu pour idée de réaliser une map en 3D grace au logiciel Unity, map dans laquelle on
+                    pourrais se deplacer grâce à personnage.
+                </p>
+
+                <p class="right_part_bottom_text_two">
+                    L'intêret de se projet, est que lorsque l'on se balade, il y à la possibilité de rencontrer des
+                    points d'intérets, affichant des informations sur les bonnes méthodes de preservations des abeilles.
+                </p>
+            </div>
+
+        </div>
+
+
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+            /* paste this line in verbatim */
+            window.formbutton = window.formbutton || function () {
+                (formbutton.q = formbutton.q || []).push(arguments)
+            };
+            /* customize formbutton below*/
+            formbutton("create", {
+                action: "https://formspree.io/f/xknynvba",
+                title: "Vous avez des questions ?",
+                fields: [{
+                        type: "email",
+                        label: "Email:",
+                        name: "email",
+                        required: true,
+                        placeholder: "your@email.com"
+                    },
+                    {
+                        type: "textarea",
+                        label: "Message:",
+                        name: "message",
+                        placeholder: "Parlons des abeilles ?",
+                    },
+                    {
+                        type: "submit",
+                        backgroundColor: "#F6AA23"
+                    }
+                ],
+                styles: {
+                    title: {
+                        backgroundColor: "#F6AA23"
+                    },
+                    button: {
+                        backgroundColor: "#D9AB54"
+                    }
+                }
+            });
+        </script>
+    </section>
+
+</body>
+
+</html>

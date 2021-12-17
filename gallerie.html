@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.ico"/>
+    <link rel="stylesheet" href="gallerie.css">
+    <title>ProjetB</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="list_navbar">
+                <a href="http://127.0.0.1:5500/index.html">
+                    <li class="list_home">Accueil</li>
+                </a>
+                <a href="http://127.0.0.1:5500/gallerie.html">
+                    <li class="list_gallery">Gallerie</li>
+                </a>
+                <a href="http://127.0.0.1:5500/unity.html">
+                    <li class="list_about">Projet B</li>
+                </a>
+            </ul>
+
+            <div class="title_and_logo">
+                <h1 class="title_project">Bee Responsible</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="grid">
+                <img src="./img/maison3d.png" alt="screen1">
+            </div>
+            <div class="grid">
+                <img src="./img/rick.png" alt="screen2">
+            </div>
+            <div class="grid">
+                <img src="./images/bee-simulator-1200x675.jpg" alt="screen3">
+            </div>
+            <div class="grid">
+                <img src="./images/bee-simulator-1200x675.jpg" alt="screen4">
+            </div>
+            <div class="grid">
+                <img src="./images/bee-simulator-1200x675.jpg" alt="screen5">
+            </div>
+            <div class="grid">
+                <img src="./images/bee-simulator-1200x675.jpg" alt="screen6">
+            </div>
+        </div>
+
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+            /* paste this line in verbatim */
+            window.formbutton = window.formbutton || function () {
+                (formbutton.q = formbutton.q || []).push(arguments)
+            };
+            /* customize formbutton below*/
+            formbutton("create", {
+                action: "https://formspree.io/f/xknynvba",
+                title: "Vous avez des questions ?",
+                fields: [{
+                        type: "email",
+                        label: "Email:",
+                        name: "email",
+                        required: true,
+                        placeholder: "your@email.com"
+                    },
+                    {
+                        type: "textarea",
+                        label: "Message:",
+                        name: "message",
+                        placeholder: "Parlons des abeilles ?",
+                    },
+                    {
+                        type: "submit",
+                        backgroundColor: "#F6AA23"
+                    }
+                ],
+                styles: {
+                    title: {
+                        backgroundColor: "#F6AA23"
+                    },
+                    button: {
+                        backgroundColor: "#D9AB54"
+                    }
+                }
+            });
+        </script>
+    </main>
+</body>
+</html>
